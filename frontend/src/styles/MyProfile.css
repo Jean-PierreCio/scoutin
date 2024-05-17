@@ -1,0 +1,37 @@
+.MyProfile {
+    display: flex;
+    justify-content: left; /* Center horizontally */
+    margin-left: 10px;
+    align-items: flex-start; /* Align to the top vertically */
+    height: 100vh;
+}
+
+.profile-section {
+    text-align: center;
+    margin-right: 20px; /* Add margin to create space between image and input section */
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* Add margin to center the image horizontally */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100px;
+}
+
+.input-section input {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.input-section input::placeholder {
+    color: #ba0000;
+}

@@ -7,6 +7,9 @@ function Home() {
             <p>
                 ScoutIn
             </p>
+            <p>
+                Player feed
+            </p>
         </div>
     );
 }
